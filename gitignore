@@ -1,0 +1,55 @@
+# ── Credentials & Secrets ──────────────────────────────
+.env
+.env.local
+.env.production
+*.key
+*.pem
+secrets.json
+credentials.json
+
+# ── API Keys (never commit these) ──────────────────────
+# xAI, Airtable, Gmail — store in n8n credentials only
+api_keys.txt
+keys.txt
+
+# ── n8n ────────────────────────────────────────────────
+# Local n8n data directory
+.n8n/
+n8n-data/
+
+# ── Docker ─────────────────────────────────────────────
+docker-compose.override.yml
+
+# ── Node.js ────────────────────────────────────────────
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# ── Python ─────────────────────────────────────────────
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# ── OS Files ───────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── Editor ─────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ── Logs ───────────────────────────────────────────────
+*.log
+logs/
+
+# ── Temp / Build ───────────────────────────────────────
+tmp/
+temp/
+dist/
+build/
+*.tmp
